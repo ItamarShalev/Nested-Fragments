@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Integral</string>
+    <string name="add">הוספה</string>
+    <string name="amount_of_fragments_to_produce">כמות קטעים לייצר:</string>
+    <string name="fragment_no">מספר קטע:</string>
+    <string name="change_background_color">שינוי צבע רקע</string>
+    <string name="field_total_cant_be_empty">שדה סופי לא יכול להישאר ריק</string>
+    <string name="invalid_number">מספר לא תקין, הכנס מספר בין 1 ל15</string>
+    <string name="example">דוגמא</string>
+</resources>

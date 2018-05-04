@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:id="@+id/parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/small_padding"
+    android:paddingEnd="@dimen/extra_small_padding"
+    android:paddingStart="@dimen/extra_small_padding">
+
+    <TextView
+        android:id="@+id/fragment_no_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/medium_margin"
+        android:paddingTop="@dimen/small_padding"
+        android:text="@string/example"
+        android:textColor="@color/textColor"
+        android:textSize="@dimen/medium_text_size"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/change_color_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fragment_no_text"
+        android:layout_centerHorizontal="true"
+        android:padding="@dimen/small_padding"
+        android:text="@string/change_background_color" />
+
+
+    <FrameLayout
+        android:id="@+id/fragments_child_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/change_color_button"
+        android:layout_marginTop="@dimen/big_margin">
+
+    </FrameLayout>
+
+</RelativeLayout>
